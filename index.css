@@ -1,0 +1,30 @@
+.principal{
+	text-align: center;
+	font-family: Candara;
+}
+
+.footer{
+	font-family: Candara;
+	position:absolute;
+	text-align: center;
+   	bottom:0;
+   	width:100%;
+   	height:60px;
+}
+
+input[type="text"]{
+	font-family: Candara;
+	font-size: 14px;
+	width: 60px;
+	text-align: center;
+}
+
+th img{
+	height: 30px;
+}
+
+
+td{
+	width: 100px;
+	height: 50px;
+}

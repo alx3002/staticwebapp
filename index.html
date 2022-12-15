@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Quadro de Medalhas</title>
+
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <div class="principal">
+      <br /><br />
+      <img
+        src="img/simbolo-olimpiadas.png"
+        height="200"
+        alt="Simbolo Olimpíadas"
+      />
+
+      <br /><br /><br /><br />
+
+      <table align="center">
+        <tr>
+          <th></th>
+          <th>
+            <img src="img/medalha-de-ouro.png" alt="Medalha de Ouro" />
+          </th>
+          <th>
+            <img src="img/medalha-de-prata.png" alt="Medalha de Prata" />
+          </th>
+          <th>
+            <img src="img/medalha-de-bronze.png" alt="Medalha de Bronze" />
+          </th>
+          <th><img src="img/total-medalhas.png" alt="Medalhas Totais" /></th>
+        </tr>
+
+        <tr>
+          <td>
+            <img
+              src="img/bandeira-do-brasil.png"
+              height="45"
+              alt="Bandeira Brasil"
+            />
+          </td>
+          <td>
+            <input type="text" id="ouro_brasil" />
+          </td>
+          <td>
+            <input type="text" id="prata_brasil" />
+          </td>
+          <td>
+            <input type="text" id="bronze_brasil" />
+          </td>
+          <td>
+            <input type="text" id="medalhas_brasil" disabled="" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="img/china.png" height="45" alt="Bandeira China" />
+          </td>
+          <td>
+            <input type="text" id="ouro_china" />
+          </td>
+          <td>
+            <input type="text" id="prata_china" />
+          </td>
+          <td>
+            <input type="text" id="bronze_china" />
+          </td>
+          <td>
+            <input type="text" id="medalhas_china" disabled="" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="img/franca.png" height="45" alt="Bandeira França" />
+          </td>
+          <td>
+            <input type="text" id="ouro_franca" />
+          </td>
+          <td>
+            <input type="text" id="prata_franca" />
+          </td>
+          <td>
+            <input type="text" id="bronze_franca" />
+          </td>
+          <td>
+            <input type="text" id="medalhas_franca" disabled="" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img
+              src="img/estados-unidos-da-america.png"
+              height="45"
+              alt="Bandeira Estados Unidos"
+            />
+          </td>
+          <td>
+            <input type="text" id="ouro_estadosunidos" />
+          </td>
+          <td>
+            <input type="text" id="prata_estadosunidos" />
+          </td>
+          <td>
+            <input type="text" id="bronze_estadosunidos" />
+          </td>
+          <td>
+            <input type="text" id="medalhas_estadosunidos" disabled="" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="img/argentina.png" height="45" alt="Bandeira Argentina" />
+          </td>
+          <td>
+            <input type="text" id="ouro_argentina" />
+          </td>
+          <td>
+            <input type="text" id="prata_argentina" />
+          </td>
+          <td>
+            <input type="text" id="bronze_argentina" />
+          </td>
+          <td>
+            <input type="text" id="medalhas_argentina" disabled="" />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <input
+        type="button"
+        value="Calcular Medalhas"
+        onclick="CalcularMedalhas()"
+      />
+    </div>
+
+    <div class="footer">
+      <p>Copyright © 2021. All Rights Reserved.</p>
+    </div>
+  </body>
+</html>
